@@ -15,7 +15,17 @@
   border: 1px solid hsl(0, 0%, 90%);
   text-align: center;
 }
-
+.details-btn{
+  padding: 8px 18px;
+  border: none;
+  background: #000;
+  color: white;
+  border-radius: 8px;
+  font-weight: bold;
+}
+.bg-green{
+  background-color: greenyellow;
+}
 @media (max-width:900px) {
   .countries-container{
     grid-template-columns: auto;
